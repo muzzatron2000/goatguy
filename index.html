@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Muzza css attempt </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#Personal Information" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Personal Information</a>
+    <a href="#Interest in Information Technology" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Interest in Information Technology</a>
+    <a href="#Ideal Job" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ideal Job</a>
+    <a href="#Personal Profile" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Personal Profile</a>
+    <a href="#Project Idea" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project Idea</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 id="Personal Information"class="w3-jumbo"><b>Personal Information</b></h1>
+    <h3 class="w3-xxxlarge w3-text-red"><b>Paul Christopher Murray</b></h1>
+  </div>
+
+  <!-- Personal Information -->
+  <div class="w3-container" id="Personal Information" style="margin-top:75px">
+    <h3> <b>S3814637@student.rmit.edu.au</b></h3>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <a href="http://imgbox.com/Py8TFCRl" target="_blank"><img src="https://thumbs2.imgbox.com/94/6a/Py8TFCRl_t.jpg" alt="image host"/></a>
+    <p>I am a 47-year-old husband and father of 2 young boys. I live on the Tweed Coast in Northern NSW and commute to Sydney for work
+      around 3 days a week. The rest of the week I work from home which gives me great flexibility and additional time with my family.</p>
+    <p>My family and I are all European descent with a common blend of English, Irish and Scottish. Sadly, English is the only language
+      spoken at home and one of life’s little regrets.
+    <p>I completed my HSC back in 1990 and after entering a Science Degree (BSc Comp) at Sydney University, dropped out during my second
+      year. The rest of my life, I have worked in IT through a varied career.<p>
+    <p>Apart from raising a family, I find a lot of joy in fishing, camping, gardening and more recently hobby farming; a factoid that
+      will raise its head later in this assignment submission.<p>
+    </p>
+  </div>
+
+  <!-- Interest in Information Technology -->
+  <div class="w3-container" id="Interest in Information Technology" style="margin-top:75px">
+    <h1 id="Interest in Information Technology"class="w3-xxxlarge w3-text-red"><b>Interest in Information Technology</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+
+    <p>My intertest in IT stemmed from what is best described as an accident. My original decision to enter a science degree was driven
+      by nothing, more than being somewhat good at it. I had no idea what career prospects were ahead of me and in 1990, young people
+      tended to do as their teachers and role models advised. I was no different. After selecting courses within the degree
+      (physics, biology, etc) I was presented with Computers as a choice. After some consideration I selected this unit, without knowing
+      that this would be the only real subject I enjoyed attending.</p>
+
+    <p>So, after little more than a year, I dropped out of University (for reasons familiar to many); however, I was lucky to find a job
+      straight away via a friend working in the hardware repair department of an Apple Reseller. From here my interest in IT flourished
+      and started me on a career path in IT, one that has spanned over 20 years and included IT Helpdesk roles, Pre-Sales Engineer, IP
+      Network Engineer, IT Business Owner and Project Manager.<p>
+
+    <p>So why am I at RMIT? The last 5 or so years has resulted in my work being a lot more bureaucratic and managerial, and lots less
+      hands-on IT. I found my passion for IT had started to wane and thought I could reset things with a course that not only went back
+       to the start, but surrounded me with plenty of people whose passion for IT would be strong, with many starting out on their own
+       path in IT as I had all those years ago. Also, not be excluded, was the idea that perhaps one day, I could finally obtain that
+       elusive degree as well as obtain some IT skills I currently don’t have such as application development.<p>
+    </p>
+  </div>
+
+  <!-- Ideal Job -->
+  <div class="w3-container" id="Ideal Job" style="margin-top:75px">
+    <h1 id="Ideal Job"class="w3-xxxlarge w3-text-red"><b>Ideal Job</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+
+  </div>
+
+    <h3> <b>Solutions Architect</b></h3>
+
+
+    <a href="https://www.seek.com.au/job/39751768?type=standout&searchrequesttoken=5e4b98f3-4d1b-48a5-b0ca-eaf479b453c6">View job advertisement here.</a>
+
+    <p>View snapshot of job advertisment below.</P>
+
+    <a href="http://imgbox.com/cQFisEah" target="_blank"><img src="https://images2.imgbox.com/ff/c0/cQFisEah_o.jpg" alt="image host"/></a>
+    <h3> <b>Position Description</b></h3>
+    <p>This is an example of a role I find very appealing, Solutions Architect. This role combines a highly technical competency with
+      that of a well organised leader. Being able to communicate with both technical team members and executives is something I find
+      very powerful.</p>
+
+    <p>Solutions Architect roles are typically a bridge between the business and the technology, the two most interesting areas of the
+      IT industry in my opinion. Typically, in any major IT project, there are business drivers. What is the problem we are trying to
+      solve or what is the market opportunity we are racing to meet? Additionally, there is a myriad of possible technologies and approaches
+      that could be utilised to solve the problem.<p>
+
+    <p>For a Solutions Architect, both these areas are of equal importance and provide a career satisfaction double that of a career in
+      just one of the areas.<p>
+
+    <h3> <b>Skills and Experience Description</b></h3>
+
+    <p>This role requires skills and experience across both business and technical spaces. From a business perspective, the role requires
+      many of the attributes that is only acquired from several years of working in the industry. Skills such as leadership, communication
+      and conflict resolution are skills learned over time and can be difficult to procure by any other means. Other skills mentioned
+      involve industry knowledge and technology trends, again, skills that are more often learned through experience.<p>
+
+    <p>Considering the technical skill requirement, these are quite often skills that can be learned without necessarily having years of
+      experience. However, this role does specify 5 years minimum for the technical skills required. Java programming as well as Java
+      infrastructure knowledge is highlighted as well as web development technologies including JavaScript, Angular and REST. Cloud
+      technologies skills are needed indicating a reliance on AWS, Azure or similar as well as an SQL and XML skill requirement.<p>
+
+    <p>My experience in IT over the last 20 plus years might satisfy many of the business requirements of such a role. Having spent
+      many years liaising with executive stake holders as well as managing large teams of engineers would place me in a good position
+      from a business perspective. Additionally, my experience and skills with technical documentation would be a benefit.<p>
+
+    <p>Clearly, the skills needed for the role I would have to acquire are those in the programming and application development field.
+      This course (should it progress to a Degree in IT) would be the logical place to start in developing these other skills.
+      Additionally, I would plan to involve myself in the developments of software within my current work environment; learning as
+      much as possible on the job. As my skills develop, I would be able to offer my services for small components of the development
+      cycle, increasing the roles as my skillset grows. Having the advantage of working fulltime in a software development company
+      should accelerate the learning process.<p>
+
+
+        <!--Personal Profile -->
+        <div class="w3-container" id="Personal Profile" style="margin-top:75px">
+          <h1 id="Ideal Job"class="w3-xxxlarge w3-text-red"><b>Personal Profile</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round">
+        </div>
+
+        <h3><b>MBTI Test Results</b></h3>
+
+        <p><b>ESTJ The Supervisor</b><p>
+
+        <ul>
+          <li>Extraverted Sensing Thinking Judging</li>
+          <li>Realistic, outgoing, systematic, dependable</li>
+          <li>Dignified, strong-willed, and principled</li>
+          <li>Extremely loyal to family, community, and country</li>
+          <li>Great strategist and outstanding “game” player</li>
+          <li>Respects tradition and order</li>
+          <li>Highly ethical, hardworking, dedicated, and honest</li>
+          <li>Lives in the observable “real world” and focuses on what is practical</li>
+          <li>Extremely organized with difficulty dealing with uncertainties</li>
+          <li>Responsible and would rather plan before acting</li>
+        </ul>
+
+        <p>Having done some of these tests over the years, the results of this test are not a surprise. They are reasonably consistent with some of the beliefs I have about my own
+          personality as well as some that I have been told by my peers. It is also fair to say that I feel this test misses out on some more emotional aspects of my personality.
+          Questions reading to emotion are quite often black and white leaving little room for interpretation. The result is that sometimes, the results of this type of test make
+          me out to be devoid of emotion.<p>
+
+        <p>The results presented here, and in other similar tests I have conducted; would influence my team behaviour in that I would often position myself to be team-organiser or
+          leader. However, experience has told me that it if equally important to identify if a better suited individual is present in the team and if so, know when to step aside.<p>
+
+        <p>If given the task of forming a team, my first instinct would be to silently assign myself as supervisor or organiser and then attempt to fill the other roles. If the
+          candidates for my team allow for this approach, then it is likely the one I would take. However, if the available candidates clearly showed more suitable leaders, based
+          on experience or skillset; then I would allow this individual to “take over” with no resistance.<p>
+
+        <h3><b>Learning Type Results</b></h3>
+
+        <p>I conducted 2 different tests online at https://www.chegg.com/play/student-life/quiz-what-type-of-learner-are-you/ and
+          http://www.whatismylearningstyle.com/learning-style-test-1.html both of which indicated that I am a VISUAL LEARNER.<p>
+
+        <p>These results confirm what I believe about my learning style. I have been advised quite a lot over the years that this is my style and understanding this has helped me
+          to learn new material. By knowing my strengths and weaknesses, I can modify my approach to learning a new concept ensuing the best chance of a speedy comprehension.<p>
+
+        <p>By understanding ones learning style one can also understand strength and weaknesses. This flows into how you might conduct yourself in a team environment. For me, it
+          might be to ensure that our team had access to a system to graphical representation of problem, solution ideas, or just progress and task allocation.<p>
+
+        <p>If given the task of forming a team, I would ensure that visual mediums were available from the outset. Although I understand that not all learning styles benefit from
+          this as I do, it would allow me to better keep track of the team’s progress and the project in general.<p>
+
+        <h3><b>Big Five Personality Results</b></h3>
+
+        <p>I conducted the Big Five Personality Test at https://openpsychometrics.org<p>
+
+            <a href="http://imgbox.com/7Kya1cJA" target="_blank"><img src="https://images2.imgbox.com/79/79/7Kya1cJA_o.jpg" alt="image host"/></a>
+
+        <p>The results of this test did not resonate as the other two tests did. There are some aspects that seem accurate, such as my ability to mingle well with strangers. However,
+          being tabled in a very low percentile for intelligence is bound to wound the ego somewhat.<p>
+
+        <p>I’m sure that my behaviour in a team would be influenced no more by this test results that the previous two. I am quite aware of many of my personality traits and how they
+          affect my interaction ns with others, especially in a team environment. If I were to take one thing from this test and relate it to my interaction with a team, might be that
+          the results tend to suggest I am agreeable, perhaps to keep the peace. Clearly this could be of a disadvantage so being aware of this in a team would be important to me.<p>
+
+        <p>Considering these results and forming a team, I would make some extra effort to ensure that I was not simply “keeping the peace” or avoiding conflict if a tough decision
+          needed to be made. Especially if I was in a position of leadership.<p>
+
+  <!--Project Idea -->
+  <div class="w3-container" id="Project Idea" style="margin-top:75px">
+    <h1 id="Ideal Job"class="w3-xxxlarge w3-text-red"><b>Project Idea</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+    <h3> <b>Overview</b></h3>
+    <p>This project will be to design and develop an online platform, complete with mobile apps, that will connect owners of goats with
+      owners of land that need clearing of thick undergrowth and scrub. The platform will benefit both goat herd owners as well as landowners.</p>
+
+    <p>As a goat owner, the platform registration process will require information to be entered including:<p>
+
+      <ul>
+        <li>Location (address) of area to be cleared</li>
+        <li>Approximate area (in hectares and acres) of the land</li>
+        <li>Details of fencing of the area (fully, partially, not fenced)</li>
+        <li>Details of the topography of the land (flat, undulating, steep, rocky, etc)</li>
+      </ul>
+
+      <h3><b>Motivation</b></h3>
+
+      <p>Currently in Australia, there are around 7 million people living in rural parts of the country (Australian Institute of Health and Welfare 2018.
+        Australia’s health 2018. Viewed 12 September 2019, <https://www.aihw.gov.au/getmedia/0c0bc98b-5e4d-4826-af7f-b300731fb447/aihw-aus-221-chapter-5-2.pdf.aspx>.
+        These properties typically require maintenance to control scrub, weeds and undergrowth that is undesirable. Typically, reduction of this vegetation required
+        landowners to resort to one of the following methods.<p>
+
+          <ul>
+            <li>Manual removal by hand</li>
+            <li>Manual removal using machinery</li>
+            <li>Herbicides using Glyphosate</li>
+          </ul>
+
+        <p>While each of these methods are effective in the short term, they all pose their own drawbacks across several areas.<p>
+
+        <p>Manual or machine assisted removal is both laborious and time consuming which means it is also expensive. Additionally, the removal is only temporary
+          and must be repeated several times annually as the unwanted vegetation typically returns rapidly.<p>
+
+        <p>Poisoning of vegetation can be less time consuming and expensive but can pose a serious threat to both the environment and animal life. Glyphosate, the active
+          ingredient in many herbicide poisons, has been banned in 18 countries globally (Sustainable Pulse. Glyphosate Herbicides Now Banned or Restricted in 18 Countries
+           Worldwide – Sustainable Pulse Research May 2019,
+           viewed Sept 12 2019< https://sustainablepulse.com/2019/05/28/glyphosate-herbicides-now-banned-or-restricted-in-17-countries-worldwide-sustainable-pulse-research/#.XX2lsSgzaUk>.  While still legally used in Australia, many municipalities are currently testing alternate methods of weed control after the World Health Organisation warned that Glyphosate probably causes cancer Scientific American March 2015, Widely Used Herbicide Linked to Cancer, viewed Sept 13 2019, < https://www.scientificamerican.com/article/widely-used-herbicide-linked-to-cancer/>.<p>
+
+        <h3><b>Business Model Description</b></h3>
+
+        <p>The solution will connect both goat owners and landowners and would be designed such that landowners are charged a fee, based on a calculation that factors:<p>
+
+          <ul>
+            <li>Area to be cleared</li>
+            <li>Time required to clear (based on number of goats in herd)</li>
+          </ul>
+
+        <p>The fee would represent the bulk of revenue generated by the platform, while ensuring the fee paid by landowners would be a significant saving when
+          compared to manual or machine assisted clearing. The fee would be comparable to poisoning however, would be significantly more environmentally safe.<p>
+
+        <p>The goat owners would pay a small, annual subscription fee to use that platform, but would receive a significant proportion of the landowner’s fee for
+          their goats to be placed on the land. Additionally, the goat owners receive the benefit of zero cost of feed for the duration of the placement.<p>
+
+      <h3><b>Features</b></h3>
+
+      <p> The solution comprises of a web application that can be accessed via any online browser. Additionally, the users will be able to download a mobile app
+        that will interface with the web application providing a subset of features provided by the web portal.<p>
+
+      <p>On fist visiting the website, users will be presented a “two halves” style of presentation. It will be clear to the user that they need to either navigate
+        to the Goat Owners section or the Landowner Section.<p>
+
+      <a href="http://imgbox.com/C7r9yl0X" target="_blank"><img src="https://images2.imgbox.com/d9/7b/C7r9yl0X_o.jpg" alt="image host"/></a>
+
+      <h3><b>Goat Owners Section</b></h3>
+
+      <p>This Section of the Web Application Includes:<p>
+
+        <ul>
+          <li>Descriptive summary of benefits to the goat owner as well as the environment</li>
+          <li>Description of the business model and monetary benefit to goat owners</li>
+          <li>A “Register Now” function that collects all necessary goat owner’s information</li>
+        </ul>
+
+      <h3><b>Landowners Section</b></h3>
+
+      <p>This Section of the Web Application Includes:<p>
+
+        <ul>
+          <li>Descriptive summary of benefits to the landowner as well as the environment</li>
+          <li>Description of the business model and costs to landowners</li>
+          <li>A “Register Now” function that collects all necessary landowner’s information</li>
+        </ul>
+
+      <h3><b>Database</b></h3>
+
+      <p>The system, having collected all the relevant information from both parties, will populate a live database. The DB will interface into a geolocation
+        service that will calculate proximity of each party and then present a suitable match.<p>
+
+      <h3><b>Transaction</b></h3>
+
+      <p>Once a match between two parties is established, each party will be presented with an Accept action. If both parties action this in the affirmative,
+        then a match is confirmed, and the transaction is initiated. Both parties are notified of the transaction and contact details for both parties are made
+        available to the other.<p>
+
+      <h3><b>Tools and Technologies</b></h3>
+
+      <p>This project idea is not particularly ground-breaking from a technology perspective, rather, it is unique in that it takes a model commonly used in the
+        short-term property letting industry and applies it differently to solve some problems not previously solved. As such, we can lean on these projects and
+        borrow from the lessons they learned in relation to technology. However, to keep our costs down, we will opt for open source technology wherever possible.<p>
+
+      <p>As the project is essentially a web application, technology can be broken down into following categories with suggested technologies.<p>
+
+        <ul>
+          <li>Web Application Framework – Ruby on Rails (Open Source)</li>
+          <li>SQL Data Storage – PostgreSQL (Open Source)</li>
+          <li>Web Server – Nginx (Open Source)</li>
+          <li>Application Server – Puma (Open Source)</li>
+          <li>Hosting – Amazon Web Services (AWS) Commercial</li>
+        </ul>
+
+      <h3><b>Skills Required</b></h3>
+
+      <p>Skills required to execute this project are varied. But, with open source technology forming the core of our solution, talent should be readily available.<p>
+
+      <p>Some of the skills required will include:<p>
+
+        <ul>
+          <li>Programming languages — Ruby, JavaScript, HTML5, CSS3 skills</li>
+          <li>Infrastructure Engineering – AWS Engineering skills</li>
+        </ul>
+
+      <h3><b>Outcome</b></h3>
+
+      <p>If this project were to be successful, the outcome with the greatest impact would be a noticeable reduction in the use of harmful pesticides in Australia.
+      The benefits of this are obvious.<p>
+
+      <p>Additionally, the outcomes for both parties are also worth noting. For landowners, an environmentally friendly method of week control that is cheaper than
+      conventional methods.<p>
+
+      <p>For the goat owner, an additional income stream for a demographic that has been doing it tough of late with the onset of climate change and drought.
+        Additionally, a financial saving with reduced need to purchase livestock feed.<p>
+
+    <p>For a Solutions Architect, both these areas are of equal importance and provide a career satisfaction double that of a career in
+      just one of the areas.<p>
+
+    <h3> <b>Skills and Experience Description</b></h3>
+
+    <p>This role requires skills and experience across both business and technical spaces. From a business perspective, the role requires
+      many of the attributes that is only acquired from several years of working in the industry. Skills such as leadership, communication
+      and conflict resolution are skills learned over time and can be difficult to procure by any other means. Other skills mentioned
+      involve industry knowledge and technology trends, again, skills that are more often learned through experience.<p>
+
+    <p>Considering the technical skill requirement, these are quite often skills that can be learned without necessarily having years of
+      experience. However, this role does specify 5 years minimum for the technical skills required. Java programming as well as Java
+      infrastructure knowledge is highlighted as well as web development technologies including JavaScript, Angular and REST. Cloud
+      technologies skills are needed indicating a reliance on AWS, Azure or similar as well as an SQL and XML skill requirement.<p>
+
+    <p>My experience in IT over the last 20 plus years might satisfy many of the business requirements of such a role. Having spent
+      many years liaising with executive stake holders as well as managing large teams of engineers would place me in a good position
+      from a business perspective. Additionally, my experience and skills with technical documentation would be a benefit.<p>
+
+    <p>Clearly, the skills needed for the role I would have to acquire are those in the programming and application development field.
+      This course (should it progress to a Degree in IT) would be the logical place to start in developing these other skills.
+      Additionally, I would plan to involve myself in the developments of software within my current work environment; learning as
+      much as possible on the job. As my skills develop, I would be able to offer my services for small components of the development
+      cycle, increasing the roles as my skillset grows. Having the advantage of working fulltime in a software development company
+      should accelerate the learning process.<p>
+  </div>
+
+
+
+</div>
+
+<!-- End page content -->
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
